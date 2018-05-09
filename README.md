@@ -4,7 +4,7 @@
 主要针对三种exchange的理解（Direct、Fanout、Topic）
 
 
-#仿Hangfire Job，实现发布与订阅（方法体）
+仿Hangfire Job，实现发布与订阅（方法体）
 //Hangfire
 Hangfire.BackgroundJob.Enqueue(() => new UserService().PrintUser(userModel, userModel.UserId));
 
