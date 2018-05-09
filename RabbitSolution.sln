@@ -9,25 +9,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Direct", "Direct", "{65D884
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic", "Topic", "{1C17E377-A9CE-4870-BF72-BD702C7F47EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Send", "ConsoleApp.Send\ConsoleApp.Send.csproj", "{2B274E5E-769C-4B59-9DB7-989DCE5B313A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Send", "ConsoleApp.Send\ConsoleApp.Send.csproj", "{2B274E5E-769C-4B59-9DB7-989DCE5B313A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Recv", "ConsoleApp.Recv\ConsoleApp.Recv.csproj", "{2282B4C1-0E1C-46F1-BC87-916671016153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Recv", "ConsoleApp.Recv\ConsoleApp.Recv.csproj", "{2282B4C1-0E1C-46F1-BC87-916671016153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Base", "RabbitMQ.Base\RabbitMQ.Base.csproj", "{16712E39-0050-4C5D-A7A5-4E3DC02F5593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Base", "RabbitMQ.Base\RabbitMQ.Base.csproj", "{16712E39-0050-4C5D-A7A5-4E3DC02F5593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Recv2", "ConsoleApp.Recv2\ConsoleApp.Recv2.csproj", "{D270D116-2337-4F39-8B81-E9F617EFCBC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Recv2", "ConsoleApp.Recv2\ConsoleApp.Recv2.csproj", "{D270D116-2337-4F39-8B81-E9F617EFCBC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Direct.Send", "ConsoleApp.Direct.Send\ConsoleApp.Direct.Send.csproj", "{28DEA7BA-4DB5-4C78-B90E-F2DBD6EB39CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Direct.Send", "ConsoleApp.Direct.Send\ConsoleApp.Direct.Send.csproj", "{28DEA7BA-4DB5-4C78-B90E-F2DBD6EB39CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Direct.Recv", "ConsoleApp.Direct.Recv\ConsoleApp.Direct.Recv.csproj", "{0A122A74-A2FD-4C73-A400-66A97FAC39A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Direct.Recv", "ConsoleApp.Direct.Recv\ConsoleApp.Direct.Recv.csproj", "{0A122A74-A2FD-4C73-A400-66A97FAC39A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Direct.Recv2", "ConsoleApp.Direct.Recv2\ConsoleApp.Direct.Recv2.csproj", "{4508F46A-762E-4E69-AEBC-D5E873FA8761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Direct.Recv2", "ConsoleApp.Direct.Recv2\ConsoleApp.Direct.Recv2.csproj", "{4508F46A-762E-4E69-AEBC-D5E873FA8761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Fanout.Send", "ConsoleApp.Fanout.Send\ConsoleApp.Fanout.Send.csproj", "{3AA524AC-2E09-4B3E-9CC8-E9B2E9A0FD0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Fanout.Send", "ConsoleApp.Fanout.Send\ConsoleApp.Fanout.Send.csproj", "{3AA524AC-2E09-4B3E-9CC8-E9B2E9A0FD0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Fanout.Recv", "ConsoleApp.Fanout.Recv\ConsoleApp.Fanout.Recv.csproj", "{D6768C75-2D11-4517-B5A0-EB940976284A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Fanout.Recv", "ConsoleApp.Fanout.Recv\ConsoleApp.Fanout.Recv.csproj", "{D6768C75-2D11-4517-B5A0-EB940976284A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Fanout.Recv2", "ConsoleApp.Fanout.Recv2\ConsoleApp.Fanout.Recv2.csproj", "{DBBA9662-EDBC-4DCC-BC3D-AEE6E47144A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Fanout.Recv2", "ConsoleApp.Fanout.Recv2\ConsoleApp.Fanout.Recv2.csproj", "{DBBA9662-EDBC-4DCC-BC3D-AEE6E47144A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{A0F6F7B9-5B23-4C61-92FC-C890D561DF01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Reflection.Send", "ConsoleApp.Reflection.Send\ConsoleApp.Reflection.Send.csproj", "{D8BEEE6C-918A-427D-909C-C9B720F4714B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Reflection.Recv", "ConsoleApp.Reflection.Recv\ConsoleApp.Reflection.Recv.csproj", "{D9C47A31-D0D0-41F2-BE77-C454263069BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection.Services", "Reflection.Services\Reflection.Services.csproj", "{782FF994-DC8B-4D1A-9F74-41B1F6EAABF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,18 @@ Global
 		{DBBA9662-EDBC-4DCC-BC3D-AEE6E47144A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBBA9662-EDBC-4DCC-BC3D-AEE6E47144A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBBA9662-EDBC-4DCC-BC3D-AEE6E47144A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BEEE6C-918A-427D-909C-C9B720F4714B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BEEE6C-918A-427D-909C-C9B720F4714B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BEEE6C-918A-427D-909C-C9B720F4714B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BEEE6C-918A-427D-909C-C9B720F4714B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C47A31-D0D0-41F2-BE77-C454263069BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C47A31-D0D0-41F2-BE77-C454263069BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C47A31-D0D0-41F2-BE77-C454263069BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C47A31-D0D0-41F2-BE77-C454263069BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782FF994-DC8B-4D1A-9F74-41B1F6EAABF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782FF994-DC8B-4D1A-9F74-41B1F6EAABF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782FF994-DC8B-4D1A-9F74-41B1F6EAABF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782FF994-DC8B-4D1A-9F74-41B1F6EAABF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +109,8 @@ Global
 		{3AA524AC-2E09-4B3E-9CC8-E9B2E9A0FD0B} = {72E31523-8D95-4468-906C-7EF538F28C4C}
 		{D6768C75-2D11-4517-B5A0-EB940976284A} = {72E31523-8D95-4468-906C-7EF538F28C4C}
 		{DBBA9662-EDBC-4DCC-BC3D-AEE6E47144A4} = {72E31523-8D95-4468-906C-7EF538F28C4C}
+		{D8BEEE6C-918A-427D-909C-C9B720F4714B} = {A0F6F7B9-5B23-4C61-92FC-C890D561DF01}
+		{D9C47A31-D0D0-41F2-BE77-C454263069BA} = {A0F6F7B9-5B23-4C61-92FC-C890D561DF01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C98CD3AA-B399-436D-B4FC-EE8D655CD6FA}
